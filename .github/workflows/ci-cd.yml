@@ -34,7 +34,7 @@ jobs:
         run: mypy src/
         
       - name: Run Unit Tests
-        run: pytest test/
+        run: pytest 
 
   # --- 第二階段：CD (部署) ---
   # 只有在 main 分支的推送且 quality-check 通過後才會執行
