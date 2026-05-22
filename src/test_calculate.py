@@ -1,4 +1,5 @@
 from calculate import add_func
+from calculate import sub_func
 
 
 def test_add_func():
@@ -8,6 +9,6 @@ def test_add_func():
 
 
 def test_sub_func():
-    assert add_func(1, 2) == -1
-    assert add_func(-1, -2) == 1
-    assert add_func(0, 0) == 0
+    assert sub_func(1, 2) == -1
+    assert sub_func(-1, -2) == 1
+    assert sub_func(0, 0) == 0
